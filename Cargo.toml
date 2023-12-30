@@ -10,3 +10,6 @@ members = [
   "examples/documentation",
   "examples/generate",
 ]
+
+[patch.crates-io]
+web3 = { git = "https://github.com/iskorotkov/rust-web3", branch = "feat/add-http-transport-retries" }

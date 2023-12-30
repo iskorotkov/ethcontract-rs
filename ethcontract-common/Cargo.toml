@@ -1,6 +1,6 @@
 [package]
 name = "ethcontract-common"
-version = "0.25.7"
+version = "0.26.0"
 authors = ["Gnosis developers <developers@gnosis.io>"]
 edition = "2021"
 license = "MIT OR Apache-2.0"
@@ -19,4 +19,4 @@ serde_derive = "1.0"
 serde_json = "1.0"
 thiserror = "1.0"
 tiny-keccak = { version = "2.0", features = ["keccak"] }
-web3 = { version = "0.19", default-features = false }
+web3 = { version = "0.20", default-features = false }
